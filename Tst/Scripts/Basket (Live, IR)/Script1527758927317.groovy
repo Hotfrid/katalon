@@ -40,8 +40,6 @@ WebUI.click(findTestObject('Page_Summer in Europe  Interrail.eu/a_5. Capri Italy
 
 WebUI.waitForPageLoad(0)
 
-WebUI.click(findTestObject('Fucking popup/POpup'), FailureHandling.OPTIONAL)
-
 WebUI.click(findTestObject('Page_Summer in Europe  Interrail.eu/a_SEE ITALY PASS PRICES'))
 
 WebUI.switchToWindowTitle('Interrail Italy Pass | Italy by Train | Interrail.eu')
