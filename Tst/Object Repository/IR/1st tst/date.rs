@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>date</name>
+   <tag></tag>
+   <elementGuidId>ee2d3149-92fc-422d-ad12-9d5ae38642eb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>html.js.no-device.placeholder.cors.svg.no-touchevents.csstransforms.csstransitions.borderradius.cssvhunit.backgroundsize.csspositionsticky.cssgradients.rgba.no-cssscrollbar.mediaqueries.boxshadow.objectfit.object-fit.opacity.flexbox body.eurail-responsive.html.not-front.not-logged-in.no-sidebars.page-checkout.page-checkout-.page-checkout-9927546.domain-www-interrail-eu.i18n-en.scroll-down-processed.scroll-to-processed.jquery-once-2-processed.jquery-once-4-processed.eurail-breakpoint-handler-processed.ready-panels.ready-panel-cart.errors_form_gtm-processed.ready div.pika-single.is-bound.is-month-editable.is-year-editable div.pika-lendar table.pika-table tbody tr td button.pika-button.pika-day</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[4]/div/table/tbody/tr[5]/td[6]/button</value>
+   </webElementProperties>
+</WebElementEntity>

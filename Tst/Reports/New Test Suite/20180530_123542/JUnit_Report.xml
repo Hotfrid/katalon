@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="76" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="76" timestamp="2018-05-30 12:35:44" hostname="work1 - 192.168.88.93" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\work1\\Katalon Studio\\Tst\\Reports\\New Test Suite\\20180530_123542"/>
+         <property name="logFiles" value="C:\\Users\\work1\\Katalon Studio\\Tst\\Reports\\New Test Suite\\20180530_123542\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="work1 - 192.168.88.93"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="192.168.88.93"/>
+         <property name="sessionId" value="9f8c651ec42cef6c51fb764f1cd7c5c8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Checkout (Live, IR)" classname="Test Cases/Checkout (Live, IR)" status="PASSED">
+         <system-out><![CDATA[2018-05-30 12:35:44 - [TEST_CASE][PASSED] - Test Cases/Checkout (Live, IR): Test Cases/Checkout (Live, IR)
+
+2018-05-30 12:35:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-30 12:35:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-30 12:35:48 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-05-30 12:35:48 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-05-30 12:35:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.interrail.eu/' successfully
+
+2018-05-30 12:35:49 - [MESSAGE][PASSED] - Navigate to 'https://www.interrail.eu/' successfully
+
+2018-05-30 12:35:49 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-30 12:35:51 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-30 12:35:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/1st tst/i agree' is clicked on
+
+2018-05-30 12:35:51 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/1st tst/i agree' is clicked on
+
+2018-05-30 12:35:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/1st tst/Cont' is clicked on
+
+2018-05-30 12:35:53 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/1st tst/Cont' is clicked on
+
+2018-05-30 12:35:53 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/IR/1st tst/passes btn in menu' is focused
+
+2018-05-30 12:35:53 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/1st tst/passes btn in menu' is focused
+
+2018-05-30 12:35:53 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/IR/1st tst/Glbl pass btn in submenu' is visible
+
+2018-05-30 12:35:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-05-30 12:35:53 - [MESSAGE][PASSED] - Object 'Object Repository/IR/1st tst/Glbl pass btn in submenu' is visible
+
+2018-05-30 12:35:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/1st tst/Glbl pass btn in submenu' is clicked on
+
+2018-05-30 12:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/1st tst/Glbl pass btn in submenu' is clicked on
+
+2018-05-30 12:35:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/1st tst/add to cart' is clicked on
+
+2018-05-30 12:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/1st tst/add to cart' is clicked on
+
+2018-05-30 12:35:58 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/IR/1st tst/go to checkout' is visible
+
+2018-05-30 12:35:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-05-30 12:36:00 - [MESSAGE][PASSED] - Object 'Object Repository/IR/1st tst/go to checkout' is visible
+
+2018-05-30 12:36:00 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/IR/1st tst/go to checkout' is focused
+
+2018-05-30 12:36:00 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/1st tst/go to checkout' is focused
+
+2018-05-30 12:36:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/1st tst/go to checkout' is clicked on
+
+2018-05-30 12:36:02 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/1st tst/go to checkout' is clicked on
+
+2018-05-30 12:36:02 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-30 12:36:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-05-30 12:36:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-30 12:36:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/1st tst/pass prot' is clicked on
+
+2018-05-30 12:36:03 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/1st tst/pass prot' is clicked on
+
+2018-05-30 12:36:03 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/IR/1st tst/sipping count drop down' successfully
+
+2018-05-30 12:36:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-05-30 12:36:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IR/1st tst/sipping count drop down' successfully
+
+2018-05-30 12:36:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-30 12:36:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-30 12:36:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/1st tst/Croatha' is clicked on
+
+2018-05-30 12:36:05 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/1st tst/Croatha' is clicked on
+
+2018-05-30 12:36:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-30 12:36:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-30 12:36:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/1st tst/Proceed' is clicked on
+
+2018-05-30 12:36:12 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/1st tst/Proceed' is clicked on
+
+2018-05-30 12:36:12 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-05-30 12:36:13 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-05-30 12:36:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-30 12:36:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-30 12:36:15 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-05-30 12:36:17 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-05-30 12:36:17 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/IR/1st tst/Guest proceed' is visible
+
+2018-05-30 12:36:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-05-30 12:36:19 - [MESSAGE][PASSED] - Object 'Object Repository/IR/1st tst/Guest proceed' is visible
+
+2018-05-30 12:36:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/1st tst/Guest proceed' is clicked on
+
+2018-05-30 12:36:22 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/1st tst/Guest proceed' is clicked on
+
+2018-05-30 12:36:22 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-30 12:36:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-05-30 12:36:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-30 12:36:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-30 12:36:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-30 12:36:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/1st tst/date_add' is clicked on
+
+2018-05-30 12:36:23 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/1st tst/date_add' is clicked on
+
+2018-05-30 12:36:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/1st tst/date' is clicked on
+
+2018-05-30 12:36:23 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/1st tst/date' is clicked on
+
+2018-05-30 12:36:23 - [TEST_STEP][PASSED] - setText: Text 'qqq' is set on object 'Object Repository/IR/Page_Checkout/input_customer_profile_travele'
+
+2018-05-30 12:36:23 - [MESSAGE][PASSED] - Text 'qqq' is set on object 'Object Repository/IR/Page_Checkout/input_customer_profile_travele'
+
+2018-05-30 12:36:23 - [TEST_STEP][PASSED] - setText: Text 'www' is set on object 'Object Repository/IR/Page_Checkout/input_customer_profile_travele_1'
+
+2018-05-30 12:36:24 - [MESSAGE][PASSED] - Text 'www' is set on object 'Object Repository/IR/Page_Checkout/input_customer_profile_travele_1'
+
+2018-05-30 12:36:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/1st tst/mr' is clicked on
+
+2018-05-30 12:36:24 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/1st tst/mr' is clicked on
+
+2018-05-30 12:36:24 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '6' are selected in object 'Object Repository/IR/Page_Checkout/select_Day12345678910111213141'  using regular expression
+
+2018-05-30 12:36:25 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/IR/Page_Checkout/select_Day12345678910111213141'  using regular expression
+
+2018-05-30 12:36:25 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '5' are selected in object 'Object Repository/IR/Page_Checkout/select_MonthJanFebMarAprMayJun'  using regular expression
+
+2018-05-30 12:36:25 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/IR/Page_Checkout/select_MonthJanFebMarAprMayJun'  using regular expression
+
+2018-05-30 12:36:25 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2010' are selected in object 'Object Repository/IR/Page_Checkout/select_Year2018201720162015201'  using regular expression
+
+2018-05-30 12:36:31 - [MESSAGE][PASSED] - All options with value '2010' are selected in object 'Object Repository/IR/Page_Checkout/select_Year2018201720162015201'  using regular expression
+
+2018-05-30 12:36:31 - [TEST_STEP][PASSED] - setText: Text 'MF334422' is set on object 'Object Repository/IR/Page_Checkout/input_customer_profile_travele_2'
+
+2018-05-30 12:36:31 - [MESSAGE][PASSED] - Text 'MF334422' is set on object 'Object Repository/IR/Page_Checkout/input_customer_profile_travele_2'
+
+2018-05-30 12:36:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/Page_Checkout/input_customer_profile_travele' is clicked on
+
+2018-05-30 12:36:31 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/Page_Checkout/input_customer_profile_travele' is clicked on
+
+2018-05-30 12:36:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/Page_Checkout/a_Continue to shipping details' is clicked on
+
+2018-05-30 12:36:34 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/Page_Checkout/a_Continue to shipping details' is clicked on
+
+2018-05-30 12:36:34 - [TEST_STEP][PASSED] - setText: Text '345646' is set on object 'Object Repository/IR/Page_Shipping/input_customer_profile_shippin'
+
+2018-05-30 12:36:35 - [MESSAGE][PASSED] - Text '345646' is set on object 'Object Repository/IR/Page_Shipping/input_customer_profile_shippin'
+
+2018-05-30 12:36:35 - [TEST_STEP][PASSED] - setText: Text 'tryrty' is set on object 'Object Repository/IR/Page_Shipping/input_customer_profile_shippin_1'
+
+2018-05-30 12:36:35 - [MESSAGE][PASSED] - Text 'tryrty' is set on object 'Object Repository/IR/Page_Shipping/input_customer_profile_shippin_1'
+
+2018-05-30 12:36:35 - [TEST_STEP][PASSED] - setText: Text 'tyrty rtytry' is set on object 'Object Repository/IR/Page_Shipping/input_customer_profile_shippin_2'
+
+2018-05-30 12:36:35 - [MESSAGE][PASSED] - Text 'tyrty rtytry' is set on object 'Object Repository/IR/Page_Shipping/input_customer_profile_shippin_2'
+
+2018-05-30 12:36:35 - [TEST_STEP][PASSED] - setText: Text 'tytry rtyrty' is set on object 'Object Repository/IR/Page_Shipping/input_customer_profile_shippin_3'
+
+2018-05-30 12:36:35 - [MESSAGE][PASSED] - Text 'tytry rtyrty' is set on object 'Object Repository/IR/Page_Shipping/input_customer_profile_shippin_3'
+
+2018-05-30 12:36:35 - [TEST_STEP][PASSED] - setText: Text '45654654' is set on object 'Object Repository/IR/Page_Shipping/input_customer_profile_contact'
+
+2018-05-30 12:36:36 - [MESSAGE][PASSED] - Text '45654654' is set on object 'Object Repository/IR/Page_Shipping/input_customer_profile_contact'
+
+2018-05-30 12:36:36 - [TEST_STEP][PASSED] - setText: Text 'nhfvgfvgfv01@gmail.com' is set on object 'Object Repository/IR/Page_Shipping/input_customer_profile_contact_1'
+
+2018-05-30 12:36:36 - [MESSAGE][PASSED] - Text 'nhfvgfvgfv01@gmail.com' is set on object 'Object Repository/IR/Page_Shipping/input_customer_profile_contact_1'
+
+2018-05-30 12:36:36 - [TEST_STEP][PASSED] - setText: Text 'nhfvgfvgfv01@gmail.com' is set on object 'Object Repository/IR/Page_Shipping/input_customer_profile_contact_2'
+
+2018-05-30 12:36:36 - [MESSAGE][PASSED] - Text 'nhfvgfvgfv01@gmail.com' is set on object 'Object Repository/IR/Page_Shipping/input_customer_profile_contact_2'
+
+2018-05-30 12:36:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/Page_Shipping/a_Continue to review your orde' is clicked on
+
+2018-05-30 12:36:40 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/Page_Shipping/a_Continue to review your orde' is clicked on
+
+2018-05-30 12:36:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/Page_Review order/input_checkout_reviewaccept' is clicked on
+
+2018-05-30 12:36:40 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/Page_Review order/input_checkout_reviewaccept' is clicked on
+
+2018-05-30 12:36:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/Page_Review order/a_Proceed to payment details' is clicked on
+
+2018-05-30 12:36:41 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/Page_Review order/a_Proceed to payment details' is clicked on
+
+2018-05-30 12:36:41 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/IR/Page_Payment details/input_brandName' is hovered
+
+2018-05-30 12:36:51 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/Page_Payment details/input_brandName' is hovered
+
+2018-05-30 12:36:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-30 12:36:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-30 12:36:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/Page_Payment details/input_brandName' is clicked on
+
+2018-05-30 12:36:53 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/Page_Payment details/input_brandName' is clicked on
+
+2018-05-30 12:36:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-30 12:36:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-30 12:36:54 - [TEST_STEP][PASSED] - setText: Text '4111 1111 1111 1111' is set on object 'Object Repository/IR/Page_Payment details/input_card.cardNumber'
+
+2018-05-30 12:36:54 - [MESSAGE][PASSED] - Text '4111 1111 1111 1111' is set on object 'Object Repository/IR/Page_Payment details/input_card.cardNumber'
+
+2018-05-30 12:36:54 - [TEST_STEP][PASSED] - setText: Text 'ddd sss' is set on object 'Object Repository/IR/Page_Payment details/input_card.cardHolderName'
+
+2018-05-30 12:36:54 - [MESSAGE][PASSED] - Text 'ddd sss' is set on object 'Object Repository/IR/Page_Payment details/input_card.cardHolderName'
+
+2018-05-30 12:36:54 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '08' are selected in object 'Object Repository/IR/Page_Payment details/select_01020304050607080910111'  using regular expression
+
+2018-05-30 12:36:55 - [MESSAGE][PASSED] - All options with value '08' are selected in object 'Object Repository/IR/Page_Payment details/select_01020304050607080910111'  using regular expression
+
+2018-05-30 12:36:55 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2018' are selected in object 'Object Repository/IR/Page_Payment details/select_        2018        201'  using regular expression
+
+2018-05-30 12:36:56 - [MESSAGE][PASSED] - All options with value '2018' are selected in object 'Object Repository/IR/Page_Payment details/select_        2018        201'  using regular expression
+
+2018-05-30 12:36:56 - [TEST_STEP][PASSED] - setText: Text '737' is set on object 'Object Repository/IR/Page_Payment details/input_card.cvcCode'
+
+2018-05-30 12:36:56 - [MESSAGE][PASSED] - Text '737' is set on object 'Object Repository/IR/Page_Payment details/input_card.cvcCode'
+
+2018-05-30 12:36:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/Page_Payment details/input_pay' is clicked on
+
+2018-05-30 12:37:01 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/Page_Payment details/input_pay' is clicked on
+
+2018-05-30 12:37:01 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-30 12:37:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-30 12:35:44 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Checkout (Live, IR)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

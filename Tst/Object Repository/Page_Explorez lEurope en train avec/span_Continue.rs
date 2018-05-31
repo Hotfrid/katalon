@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Continue</name>
+   <tag></tag>
+   <elementGuidId>945c2b4f-a31e-4666-93db-fc8d18419011</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text has-translation</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-translates</name>
+      <type>Main</type>
+      <value>{&quot;en&quot;:&quot;Continue&quot;,&quot;es&quot;:&quot;Continuar&quot;,&quot;fr&quot;:&quot;Continuer&quot;,&quot;de&quot;:&quot;Weiter&quot;,&quot;it&quot;:&quot;Continua&quot;,&quot;nl&quot;:&quot;Verder&quot;}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Continue</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;js js no-device placeholder cors svg no-touchevents csstransforms csstransitions borderradius cssvhunit backgroundsize csspositionsticky cssgradients rgba cssscrollbar mediaqueries boxshadow objectfit object-fit opacity flexbox&quot;]/body[@class=&quot;eurail-responsive html front not-logged-in no-sidebars page-home domain-www-interrail-eu   i18n-fr scroll-down-processed scroll-to-processed eurail-breakpoint-handler-processed ready-panels ready-panel-cart errors_form_gtm-processed no-ready&quot;]/div[@class=&quot;page page-language-selection jquery-once-1-processed eurail-widget-dropdown-controller-processed eurail-dialog-trigger-processed&quot;]/div[@class=&quot;page-content&quot;]/main[@class=&quot;main-content&quot;]/div[@class=&quot;block block-masthead block-masthead_language-selection&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;masthead eurail-responsive-bg-processed&quot;]/div[@class=&quot;buttons&quot;]/div[@class=&quot;button button-large button-a&quot;]/a[@class=&quot;button-apply-language&quot;]/span[@class=&quot;text has-translation&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

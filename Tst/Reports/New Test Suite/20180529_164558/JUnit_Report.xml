@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="1" tests="0" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="0" failures="1" errors="0" time="1" timestamp="2018-05-29 16:45:59" hostname="work1 - 192.168.88.93" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\work1\\Katalon Studio\\Tst\\Reports\\New Test Suite\\20180529_164558"/>
+         <property name="logFiles" value="C:\\Users\\work1\\Katalon Studio\\Tst\\Reports\\New Test Suite\\20180529_164558\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="work1 - 192.168.88.93"/>
+         <property name="hostAddress" value="192.168.88.93"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Checkout (Live, IR)" classname="Test Cases/Checkout (Live, IR)" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unable to create new service: ChromeDriverService
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'DESKTOP-JVS3DPV', ip: '192.168.88.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+Command duration or timeout: 275 milliseconds)"/>
+         <system-out><![CDATA[2018-05-29 16:45:59 - [TEST_CASE][FAILED] - Test Cases/Checkout (Live, IR): Test Cases/Checkout (Live, IR) FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unable to create new service: ChromeDriverService
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'DESKTOP-JVS3DPV', ip: '192.168.88.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+Command duration or timeout: 275 milliseconds)
+
+2018-05-29 16:46:00 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unable to create new service: ChromeDriverService
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'DESKTOP-JVS3DPV', ip: '192.168.88.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+Command duration or timeout: 275 milliseconds)
+
+2018-05-29 16:46:01 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unable to create new service: ChromeDriverService
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'DESKTOP-JVS3DPV', ip: '192.168.88.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+Command duration or timeout: 275 milliseconds)]]></system-out>
+         <system-err><![CDATA[2018-05-29 16:45:59 - [TEST_CASE][FAILED] - Test Cases/Checkout (Live, IR): Test Cases/Checkout (Live, IR) FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unable to create new service: ChromeDriverService
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'DESKTOP-JVS3DPV', ip: '192.168.88.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+Command duration or timeout: 275 milliseconds)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-29 16:45:59 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Checkout (Live, IR) FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unable to create new service: ChromeDriverService
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'DESKTOP-JVS3DPV', ip: '192.168.88.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+Command duration or timeout: 275 milliseconds)]]></system-out>
+      <system-err><![CDATA[2018-05-29 16:45:59 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Checkout (Live, IR) FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unable to create new service: ChromeDriverService
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'DESKTOP-JVS3DPV', ip: '192.168.88.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+Command duration or timeout: 275 milliseconds)]]></system-err>
+   </testsuite>
+</testsuites>

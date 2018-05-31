@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Cont</name>
+   <tag></tag>
+   <elementGuidId>1667aadf-6de2-464f-844b-b8f5f3b8c0a1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>html.js.no-device.placeholder.cors.svg.no-touchevents.csstransforms.csstransitions.borderradius.cssvhunit.backgroundsize.csspositionsticky.cssgradients.rgba.no-cssscrollbar.mediaqueries.boxshadow.objectfit.object-fit.opacity.flexbox body.eurail-responsive.html.front.not-logged-in.no-sidebars.page-home.domain-www-interrail-eu.i18n-en.scroll-down-processed.scroll-to-processed.eurail-breakpoint-handler-processed.ready-panels.ready-panel-cart.errors_form_gtm-processed.ready div.page.page-language-selection.jquery-once-1-processed.eurail-widget-dropdown-controller-processed.eurail-dialog-trigger-processed div.page-content main.main-content div.block.block-masthead.block-masthead_language-selection div.container div.masthead.eurail-responsive-bg-processed div.buttons div.button.button-large.button-a a.button-apply-language span.text.has-translation</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[2]/div[1]/main/div/div/div/div[4]/div/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[2]/div[1]/main/div/div/div/div[4]/div/a/span</value>
+   </webElementProperties>
+</WebElementEntity>

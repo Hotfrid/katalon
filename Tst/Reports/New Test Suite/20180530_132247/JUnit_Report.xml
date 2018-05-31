@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="31" tests="0" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="0" failures="1" errors="0" time="31" timestamp="2018-05-30 13:22:50" hostname="DESKTOP-JVS3DPV$ - 192.168.88.93" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\work1\\Katalon Studio\\Tst\\Reports\\New Test Suite\\20180530_132247"/>
+         <property name="logFiles" value="C:\\Users\\work1\\Katalon Studio\\Tst\\Reports\\New Test Suite\\20180530_132247\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\work1\\Katalon Studio\\Tst\\Reports\\New Test Suite\\20180530_132247\\1527675801352.png"/>
+         <property name="hostName" value="DESKTOP-JVS3DPV$ - 192.168.88.93"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="192.168.88.93"/>
+         <property name="sessionId" value="908b8c33a4e1c6850b06dd40d1aa0bd0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Checkout (Live, IR)" classname="Test Cases/Checkout (Live, IR)" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/IR/1st tst/Proceed' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;javascript:void(0)&quot; class=&quot;eurail-proxy-click eurail-proceed-checkout eurail-proxy-click-processed&quot; data-proxy-target=&quot;.checkout-buttons .checkout-next input&quot;>...&lt;/a> is not clickable at point (502, 637). Other element would receive the click: &lt;div class=&quot;blockUI blockOverlay&quot; style=&quot;z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.0112634; cursor: default; position: fixed;&quot;>&lt;/div>
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JVS3DPV', ip: '192.168.88.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 908b8c33a4e1c6850b06dd40d1aa0bd0)"/>
+         <system-out><![CDATA[2018-05-30 13:22:51 - [TEST_CASE][FAILED] - Test Cases/Checkout (Live, IR): Test Cases/Checkout (Live, IR) FAILED because (of) Unable to click on object 'Object Repository/IR/1st tst/Proceed' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a href="javascript:void(0)" class="eurail-proxy-click eurail-proceed-checkout eurail-proxy-click-processed" data-proxy-target=".checkout-buttons .checkout-next input">...</a> is not clickable at point (502, 637). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.0112634; cursor: default; position: fixed;"></div>
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JVS3DPV', ip: '192.168.88.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 908b8c33a4e1c6850b06dd40d1aa0bd0)
+
+2018-05-30 13:22:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-30 13:22:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-30 13:22:56 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-05-30 13:22:57 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-05-30 13:22:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.interrail.eu/' successfully
+
+2018-05-30 13:22:59 - [MESSAGE][PASSED] - Navigate to 'https://www.interrail.eu/' successfully
+
+2018-05-30 13:22:59 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-30 13:23:00 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-30 13:23:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/1st tst/i agree' is clicked on
+
+2018-05-30 13:23:00 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/1st tst/i agree' is clicked on
+
+2018-05-30 13:23:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/1st tst/Cont' is clicked on
+
+2018-05-30 13:23:04 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/1st tst/Cont' is clicked on
+
+2018-05-30 13:23:04 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/IR/1st tst/passes btn in menu' is focused
+
+2018-05-30 13:23:04 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/1st tst/passes btn in menu' is focused
+
+2018-05-30 13:23:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/IR/1st tst/Glbl pass btn in submenu' is visible
+
+2018-05-30 13:23:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-05-30 13:23:05 - [MESSAGE][PASSED] - Object 'Object Repository/IR/1st tst/Glbl pass btn in submenu' is visible
+
+2018-05-30 13:23:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/1st tst/Glbl pass btn in submenu' is clicked on
+
+2018-05-30 13:23:09 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/1st tst/Glbl pass btn in submenu' is clicked on
+
+2018-05-30 13:23:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/1st tst/add to cart' is clicked on
+
+2018-05-30 13:23:09 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/1st tst/add to cart' is clicked on
+
+2018-05-30 13:23:09 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/IR/1st tst/go to checkout' is visible
+
+2018-05-30 13:23:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-05-30 13:23:11 - [MESSAGE][PASSED] - Object 'Object Repository/IR/1st tst/go to checkout' is visible
+
+2018-05-30 13:23:11 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/IR/1st tst/go to checkout' is focused
+
+2018-05-30 13:23:11 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/1st tst/go to checkout' is focused
+
+2018-05-30 13:23:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/1st tst/go to checkout' is clicked on
+
+2018-05-30 13:23:14 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/1st tst/go to checkout' is clicked on
+
+2018-05-30 13:23:14 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-30 13:23:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-05-30 13:23:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-30 13:23:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/1st tst/pass prot' is clicked on
+
+2018-05-30 13:23:15 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/1st tst/pass prot' is clicked on
+
+2018-05-30 13:23:15 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/IR/1st tst/sipping count drop down' successfully
+
+2018-05-30 13:23:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-05-30 13:23:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IR/1st tst/sipping count drop down' successfully
+
+2018-05-30 13:23:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-30 13:23:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-30 13:23:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IR/1st tst/Croatha' is clicked on
+
+2018-05-30 13:23:18 - [MESSAGE][PASSED] - Object: 'Object Repository/IR/1st tst/Croatha' is clicked on
+
+2018-05-30 13:23:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-30 13:23:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-30 13:23:21 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/IR/1st tst/Proceed' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a href="javascript:void(0)" class="eurail-proxy-click eurail-proceed-checkout eurail-proxy-click-processed" data-proxy-target=".checkout-buttons .checkout-next input">...</a> is not clickable at point (502, 637). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.0112634; cursor: default; position: fixed;"></div>
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JVS3DPV', ip: '192.168.88.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 908b8c33a4e1c6850b06dd40d1aa0bd0)
+
+2018-05-30 13:23:21 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/IR/1st tst/Proceed' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a href="javascript:void(0)" class="eurail-proxy-click eurail-proceed-checkout eurail-proxy-click-processed" data-proxy-target=".checkout-buttons .checkout-next input">...</a> is not clickable at point (502, 637). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.0112634; cursor: default; position: fixed;"></div>
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JVS3DPV', ip: '192.168.88.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 908b8c33a4e1c6850b06dd40d1aa0bd0)
+[[ATTACHMENT|C:\\Users\\work1\\Katalon Studio\\Tst\\Reports\\New Test Suite\\20180530_132247\\1527675801352.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-30 13:22:51 - [TEST_CASE][FAILED] - Test Cases/Checkout (Live, IR): Test Cases/Checkout (Live, IR) FAILED because (of) Unable to click on object 'Object Repository/IR/1st tst/Proceed' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a href="javascript:void(0)" class="eurail-proxy-click eurail-proceed-checkout eurail-proxy-click-processed" data-proxy-target=".checkout-buttons .checkout-next input">...</a> is not clickable at point (502, 637). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.0112634; cursor: default; position: fixed;"></div>
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JVS3DPV', ip: '192.168.88.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 908b8c33a4e1c6850b06dd40d1aa0bd0)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-30 13:22:50 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Checkout (Live, IR) FAILED because (of) Unable to click on object 'Object Repository/IR/1st tst/Proceed' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a href="javascript:void(0)" class="eurail-proxy-click eurail-proceed-checkout eurail-proxy-click-processed" data-proxy-target=".checkout-buttons .checkout-next input">...</a> is not clickable at point (502, 637). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.0112634; cursor: default; position: fixed;"></div>
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JVS3DPV', ip: '192.168.88.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 908b8c33a4e1c6850b06dd40d1aa0bd0)]]></system-out>
+      <system-err><![CDATA[2018-05-30 13:22:50 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Checkout (Live, IR) FAILED because (of) Unable to click on object 'Object Repository/IR/1st tst/Proceed' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a href="javascript:void(0)" class="eurail-proxy-click eurail-proceed-checkout eurail-proxy-click-processed" data-proxy-target=".checkout-buttons .checkout-next input">...</a> is not clickable at point (502, 637). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.0112634; cursor: default; position: fixed;"></div>
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JVS3DPV', ip: '192.168.88.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 908b8c33a4e1c6850b06dd40d1aa0bd0)]]></system-err>
+   </testsuite>
+</testsuites>

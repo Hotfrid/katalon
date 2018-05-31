@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Jaccepte</name>
+   <tag></tag>
+   <elementGuidId>fbbae128-3998-49a8-8689-e1f57f55faaa</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>J'accepte</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;js js no-device placeholder cors svg no-touchevents csstransforms csstransitions borderradius cssvhunit backgroundsize csspositionsticky cssgradients rgba cssscrollbar mediaqueries boxshadow objectfit object-fit opacity flexbox&quot;]/body[@class=&quot;eurail-responsive html front not-logged-in no-sidebars page-home domain-www-interrail-eu   i18n-fr scroll-down-processed scroll-to-processed eurail-breakpoint-handler-processed ready-panels ready-panel-cart errors_form_gtm-processed ready&quot;]/div[@class=&quot;page page-language-selection jquery-once-1-processed eurail-widget-dropdown-controller-processed eurail-dialog-trigger-processed is-dialog-opened&quot;]/div[@class=&quot;dialogs&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;dialog dialog-cookie-warning eurail-dialog-processed eurail-dialog-cookie-warning-processed is-visible is-active is-desktop-popup&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;jcf-scrollable-wrapper&quot;]/div[@class=&quot;dialog-content&quot;]/div[@class=&quot;cookie-warning&quot;]/div[@class=&quot;buttons&quot;]/div[@class=&quot;button button-large button-a button-submit&quot;]/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>
