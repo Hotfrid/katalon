@@ -58,3 +58,7 @@ WebUI.verifyElementText(findTestObject('Counter/Passes counter'), '1')
 
 WebUI.closeBrowser()
 
+WebUI.verifyElementPresent(findTestObject('Fucking popup/POpup'), 0)
+
+WebUI.acceptAlert()
+
