@@ -4,7 +4,7 @@
    <name>New Test Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-06-01T10:59:24</lastRun>
+   <lastRun>2018-06-01T11:10:56</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -22,11 +22,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Basket (Live, IR)</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d443c832-0e56-40bf-b108-d78c23003c91</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
