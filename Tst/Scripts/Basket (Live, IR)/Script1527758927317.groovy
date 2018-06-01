@@ -40,6 +40,8 @@ WebUI.click(findTestObject('Page_Summer in Europe  Interrail.eu/a_5. Capri Italy
 
 WebUI.waitForPageLoad(0)
 
+WebUI.click(findTestObject('Fucking popup/POpup'), FailureHandling.OPTIONAL)
+
 WebUI.click(findTestObject('Page_Summer in Europe  Interrail.eu/a_SEE ITALY PASS PRICES'))
 
 WebUI.switchToWindowTitle('Interrail Italy Pass | Italy by Train | Interrail.eu')
@@ -55,4 +57,8 @@ WebUI.click(findTestObject('Page_Interrail Italy Pass  Italy by/a_Continue shopp
 WebUI.verifyElementText(findTestObject('Counter/Passes counter'), '1')
 
 WebUI.closeBrowser()
+
+WebUI.verifyElementPresent(findTestObject('Fucking popup/POpup'), 0)
+
+WebUI.acceptAlert()
 
