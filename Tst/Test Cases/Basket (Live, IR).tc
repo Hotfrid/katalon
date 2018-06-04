@@ -6,10 +6,10 @@
    <comment></comment>
    <testCaseGuid>bb5ddbe5-1f80-4062-9ed7-aab5af5881a1</testCaseGuid>
    <variable>
-      <defaultValue>'1'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>d443c832-0e56-40bf-b108-d78c23003c91</id>
-      <masked>true</masked>
-      <name>var</name>
+      <id>ce893a41-9b9c-494e-a819-3cafb31454d0</id>
+      <masked>false</masked>
+      <name>variable</name>
    </variable>
 </TestCaseEntity>

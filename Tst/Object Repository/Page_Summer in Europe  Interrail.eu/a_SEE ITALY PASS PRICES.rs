@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>/html/body/div[2]/div[1]/div[1]/div/div/div[12]/div/div/div/div/div[2]/div/div/div/div/p[5]/a</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@href=&quot;https://www.interrail.eu/en/interrail-passes/one-country-pass/italy-passes/italy&quot;]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

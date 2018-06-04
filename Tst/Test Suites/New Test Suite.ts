@@ -4,7 +4,7 @@
    <name>New Test Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-06-01T13:37:55</lastRun>
+   <lastRun>2018-06-04T17:30:12</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -26,7 +26,7 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d443c832-0e56-40bf-b108-d78c23003c91</variableId>
+         <variableId>ce893a41-9b9c-494e-a819-3cafb31454d0</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

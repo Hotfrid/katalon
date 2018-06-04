@@ -40,9 +40,17 @@ WebUI.click(findTestObject('Page_Summer in Europe  Interrail.eu/a_5. Capri Italy
 
 WebUI.waitForPageLoad(2)
 
+WebUI.waitForElementVisible(findTestObject('Popup'), 5)
+
+WebUI.click(findTestObject('Close popup button'))
+
+WebUI.waitForElementNotVisible(findTestObject('Popup'), 2)
+
+WebUI.waitForElementClickable(findTestObject('Page_Summer in Europe  Interrail.eu/a_SEE ITALY PASS PRICES'), 1)
+
 WebUI.click(findTestObject('Page_Summer in Europe  Interrail.eu/a_SEE ITALY PASS PRICES'))
 
-WebUI.switchToWindowTitle('Interrail Italy Pass | Italy by Train | Interrail.eu')
+WebUI.switchToWindowUrl('https://www.interrail.eu/en/interrail-passes/one-country-pass/italy-passes/italy')
 
 WebUI.click(findTestObject('Page_Interrail Italy Pass  Italy by/label_1st ClassWider seats les'))
 
