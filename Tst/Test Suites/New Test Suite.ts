@@ -22,11 +22,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Basket (Live, IR)</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ce893a41-9b9c-494e-a819-3cafb31454d0</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
