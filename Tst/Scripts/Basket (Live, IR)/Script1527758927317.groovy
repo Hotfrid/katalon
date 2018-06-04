@@ -32,7 +32,7 @@ WebUI.click(findTestObject('IR/1st tst/i agree'), FailureHandling.STOP_ON_FAILUR
 
 WebUI.click(findTestObject('IR/1st tst/Cont'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Counter/Passes counter'), '2')
+WebUI.verifyElementText(findTestObject('Counter/Passes counter'), '0')
 
 WebUI.click(findTestObject('Page_Be free to explore Europe by r/a_Go for sunshine'))
 
