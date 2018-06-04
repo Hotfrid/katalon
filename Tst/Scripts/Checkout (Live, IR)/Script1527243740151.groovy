@@ -36,23 +36,23 @@ WebUI.click(findTestObject('IR/1st tst/Cont'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.focus(findTestObject('IR/1st tst/passes btn in menu'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('IR/1st tst/Glbl pass btn in submenu'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('IR/1st tst/Glbl pass btn in submenu'), 2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('IR/1st tst/Glbl pass btn in submenu'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('IR/1st tst/add to cart'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('IR/1st tst/go to checkout'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('IR/1st tst/go to checkout'), 2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.focus(findTestObject('IR/1st tst/go to checkout'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('IR/1st tst/go to checkout'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForPageLoad(2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('IR/1st tst/pass prot'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('IR/1st tst/sipping count drop down'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('IR/1st tst/sipping count drop down'), 2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -68,11 +68,11 @@ WebUI.delay(2)
 
 WebUI.refresh()
 
-WebUI.waitForElementVisible(findTestObject('IR/1st tst/Guest proceed'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('IR/1st tst/Guest proceed'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('IR/1st tst/Guest proceed'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForPageLoad(2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 

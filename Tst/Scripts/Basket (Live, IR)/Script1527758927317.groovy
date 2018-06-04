@@ -32,13 +32,13 @@ WebUI.click(findTestObject('IR/1st tst/i agree'), FailureHandling.STOP_ON_FAILUR
 
 WebUI.click(findTestObject('IR/1st tst/Cont'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Counter/Passes counter'), '0')
+WebUI.verifyElementText(findTestObject('Counter/Passes counter'), '2')
 
 WebUI.click(findTestObject('Page_Be free to explore Europe by r/a_Go for sunshine'))
 
 WebUI.click(findTestObject('Page_Summer in Europe  Interrail.eu/a_5. Capri Italy'))
 
-WebUI.waitForPageLoad(0)
+WebUI.waitForPageLoad(2)
 
 WebUI.click(findTestObject('Fucking popup/POpup'), FailureHandling.OPTIONAL)
 
@@ -50,7 +50,7 @@ WebUI.click(findTestObject('Page_Interrail Italy Pass  Italy by/label_1st ClassW
 
 WebUI.click(findTestObject('Page_Interrail Italy Pass  Italy by/a_Add to cart'))
 
-WebUI.waitForElementVisible(findTestObject('Page_Interrail Italy Pass  Italy by/a_Continue shopping'), 0)
+WebUI.waitForElementVisible(findTestObject('Page_Interrail Italy Pass  Italy by/a_Continue shopping'), 2)
 
 WebUI.click(findTestObject('Page_Interrail Italy Pass  Italy by/a_Continue shopping'))
 
