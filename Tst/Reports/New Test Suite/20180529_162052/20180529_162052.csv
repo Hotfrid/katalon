@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-New Test Suite,,,2018-05-29 16:20:54,2018-05-29 16:20:56,1.537s,FAILED
-,,,,,,
-"Test Cases/Checkout (Live, IR)",,,2018-05-29 16:20:55,2018-05-29 16:20:56,1.223s,FAILED
-openBrowser,,,2018-05-29 16:20:55,2018-05-29 16:20:56,0.905s,FAILED
